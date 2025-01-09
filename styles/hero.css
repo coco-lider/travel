@@ -30,6 +30,13 @@
     font-weight: 500;
     display: inline-block;
     margin-bottom: 1.5rem;
+    border: none;
+    transition: 0.3s;
+}
+
+.badge:hover{
+    transform: translateY(-2px);
+    background-color: #ffd60ac3;
 }
 
 .hero-content h1 {
