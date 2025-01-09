@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travila - Travel Website</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/destinations.css">
+    <link rel="stylesheet" href="./styles/tours.css">
+    <link rel="stylesheet" href="./styles/offer.css">
+    <link rel="stylesheet" href="./styles/cotigories.css">
+    <link rel="stylesheet" href="./styles/gifts.css">
+    <link rel="stylesheet" href="./styles/feas.css">
+    <link rel="stylesheet" href="./styles/trending.css">
+    <link rel="stylesheet" href="./styles/live.css">
+    <link rel="stylesheet" href="./styles/inspiration.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <a href="tel:+12225553389"><i class="fas fa-phone"></i> +1 222-555-33-89</a>
+                <a href="mailto:support@travila.com"><i class="fas fa-envelope"></i> support@travila.com</a>
+            </div>
+            <div class="promo">
+                <p>Unlock the Magic of Travel with Travila - Your Gateway to Extraordinary Experiences</p>
+                <a href="#" class="promo-link">Get This Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="settings">
+                <select class="language">
+                    <option value="EN">EN</option>
+                    <option value="FR">FR</option>
+                </select>
+                <select class="currency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+                <button class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="img/Link.png" alt="Travila Logo">
+                </a>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li class="has-dropdown">
+                        <a href="#" class="active">Home <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Home Style 1</a></li>
+                            <li><a href="#">Home Style 2</a></li>
+                            <li><a href="#">Home Style 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Tours <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Tour List</a></li>
+                            <li><a href="#">Tour Grid</a></li>
+                            <li><a href="#">Tour Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Destinations <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Europe</a></li>
+                            <li><a href="#">Asia</a></li>
+                            <li><a href="#">Americas</a></li>
+                            <li><a href="#">Africa</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Activities <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Adventure</a></li>
+                            <li><a href="#">Culture</a></li>
+                            <li><a href="#">Urban</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Rental</a></li>
+                    <li><a href="#">Tickets</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="expert-btn">Become Local Expert</button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">Explore the World</span>
+            <h1>Your Gateway to Extraordinary Adventures</h1>
+            <p>Pack your bags and let Travila redefine your travel experience. Where every journey is a story waiting to be told.</p>
+        </div>
+
+        <div class="search-container">
+            <div class="search-tabs">
+                <button class="tab-btn active">Tours</button>
+                <button class="tab-btn">Hotels</button>
+                <button class="tab-btn">Tickets</button>
+                <button class="tab-btn">Rental</button>
+                <button class="tab-btn">Activities</button>
+                <a href="#" class="help-link">Need some help?</a>
+            </div>
+
+            <div class="search-form">
+                <div class="search-group">
+                    <h3>Location</h3>
+                    <div class="input-with-icon">
+                        <h3>New York, USA</h3>
+                    </div>
+                </div>
+                <div class="search-group">
+                    <h3>Check In</h3>
+                    <div class="input-with-icon">
+                        <h3>02 January 2024</h3>
+                    </div>
+                </div>
+                <div class="search-group">
+                    <h3>Check Out</h3>
+                    <div class="input-with-icon">
+                        <h3>02 January 2024</h3>
+                    </div>
+                </div>
+                <div class="search-group">
+                    <h3>Guest</h3>
+                    <div class="input-with-icon">
+                        <h3>2 adults, 2 children</h3>
+                    </div>
+                </div>
+                <button type="submit" class="search-button">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="destinations">
+        <div class="container">
+            <div class="ds-header-title">
+                <h2>Top Searched Destinations</h2>
+                <h4>Favorite destinations of professional tourists</h4>
+            </div>
+
+
+        <div class="destination-grid">
+            <div class="destination-card">
+                <div class="destination-card-img">
+                    <img src="./img/destination.png.png" alt="">
+                </div>
+                <div class="destination-card-title">
+                    <h2>Venice</h2>
+                    <p>356 Tours</p>
+                </div>
+                <button class="destination-btn">></button>
+            </div>
+            <div class="destination-card">
+                <div class="destination-card-img">
+                    <img src="./img/destination2.png.png" alt="">
+                </div>
+                <div class="destination-card-title">
+                    <h2>Amsterdam</h2>
+                    <p>356 Tours</p>
+                </div>
+                <button class="destination-btn">></button>
+            </div>
+            <div class="destination-card">
+                <div class="destination-card-img">
+                    <img src="./img/destination3.png.png" alt="">
+                </div>
+                <div class="destination-card-title">
+                    <h2>Budapest</h2>
+                    <p>356 Tours</p>
+                </div>
+                <button class="destination-btn">></button>
+            </div>
+            <div class="destination-card">
+                <div class="destination-card-img">
+                    <img src="./img/destination4.png.png" alt="">
+                </div>
+                <div class="destination-card-title">
+                    <h2>Lisbon</h2>
+                    <p>356 Tours</p>
+                </div>
+                <button class="destination-btn">></button>
+            </div>
+            <div class="destination-card">
+                <div class="destination-card-img">
+                    <img src="./img/destination6.png.png" alt="">
+                </div>
+                <div class="destination-card-title">
+                    <h2>Ottawa</h2>
+                    <p>356 Tours</p>
+                </div>
+                <button class="destination-btn">></button>
+            </div>
+            <div class="destination-card">
+                <div class="destination-card-img">
+                    <img src="./img/destination7.png.png" alt="">
+                </div>
+                <div class="destination-card-title">
+                    <h2>Paris</h2>
+                    <p>356 Tours</p>
+                </div>
+                <button class="destination-btn">></button>
+            </div>
+            <div class="destination-card">
+                <div class="destination-card-img">
+                    <img src="./img/destination8.png.png" alt="">
+                </div>
+                <div class="destination-card-title">
+                    <h2>Paris</h2>
+                    <p>356 Tours</p>
+                </div>
+                <button class="destination-btn">></button>
+            </div>
+            <div class="destination-card">
+                <div class="destination-card-img">
+                    <img src="./img/destination5.png.png" alt="">
+                </div>
+                <div class="destination-card-title">
+                    <h2>Paris</h2>
+                    <p>356 Tours</p>
+                </div>
+                <button class="destination-btn">></button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="tours">
+        <div class="container">
+            <div class="tour-header">
+                <h1>Our Featured Tours</h1>
+                <p>Find the latest offers on our curated tours</p>
+            </div>
+    
+            <div class="filters">
+                <button class="filter-button">Categories</button>
+                <button class="filter-button">Duration</button>
+                <button class="filter-button">Review Rating</button>
+                <button class="filter-button">Price range</button>
+            </div>
+    
+            <div class="tours-grid">
+                <!-- Tour Card 1 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="./img/journey2.png.png" alt="California Sunset Cruise" class="tour-image">
+                        <span class="tour-tag">Best Seller</span>
+                        <button class="favorite-button">♡</button>
+                    </div>
+                    <div class="tour-content">
+                        <h3 class="tour-title">California Sunset/Twilight Boat Cruise</h3>
+                        <div class="tour-info">
+                            <span>2 Days 1 Night</span>
+                            <div class="tour-rating">
+                                ★ 4.8 <span>(32 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <div class="price">
+                                $48.25 <span>/person</span>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Tour Card 2 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="./img/journey3.png.png" alt="NYC Food Tour" class="tour-image">
+                        <span class="tour-tag">Best Deal</span>
+                        <button class="favorite-button">♡</button>
+                    </div>
+                    <div class="tour-content">
+                        <h3 class="tour-title">NYC: Food Tastings and Culture Tour</h3>
+                        <div class="tour-info">
+                            <span>3 Days 2 Nights</span>
+                            <div class="tour-rating">
+                                ★ 4.9 <span>(48 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <div class="price">
+                                $17.32 <span>/person</span>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Tour Card 3 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="./img/journey4.png.png" alt="Grand Canyon Tour" class="tour-image">
+                        <span class="tour-tag">Popular</span>
+                        <button class="favorite-button">♡</button>
+                    </div>
+                    <div class="tour-content">
+                        <h3 class="tour-title">Grand Canyon Horseshoe Bend 2 days</h3>
+                        <div class="tour-info">
+                            <span>2 Days 1 Night</span>
+                            <div class="tour-rating">
+                                ★ 4.7 <span>(56 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <div class="price">
+                                $15.63 <span>/person</span>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Repeat the same 3 cards for the second row -->
+                <!-- Tour Card 4 (Copy of 1) -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="./img/journey2.png (1).png" alt="California Sunset Cruise" class="tour-image">
+                        <span class="tour-tag">Best Seller</span>
+                        <button class="favorite-button">♡</button>
+                    </div>
+                    <div class="tour-content">
+                        <h3 class="tour-title">California Sunset/Twilight Boat Cruise</h3>
+                        <div class="tour-info">
+                            <span>2 Days 1 Night</span>
+                            <div class="tour-rating">
+                                ★ 4.8 <span>(32 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <div class="price">
+                                $48.25 <span>/person</span>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Tour Card 5 (Copy of 2) -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="./img/journey3.png (1).png" alt="NYC Food Tour" class="tour-image">
+                        <span class="tour-tag">Best Deal</span>
+                        <button class="favorite-button">♡</button>
+                    </div>
+                    <div class="tour-content">
+                        <h3 class="tour-title">NYC: Food Tastings and Culture Tour</h3>
+                        <div class="tour-info">
+                            <span>3 Days 2 Nights</span>
+                            <div class="tour-rating">
+                                ★ 4.9 <span>(48 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <div class="price">
+                                $17.32 <span>/person</span>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Tour Card 6 (Copy of 3) -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="./img/journey4.png (1).png" alt="Grand Canyon Tour" class="tour-image">
+                        <span class="tour-tag">Popular</span>
+                        <button class="favorite-button">♡</button>
+                    </div>
+                    <div class="tour-content">
+                        <h3 class="tour-title">Grand Canyon Horseshoe Bend 2 days</h3>
+                        <div class="tour-info">
+                            <span>2 Days 1 Night</span>
+                            <div class="tour-rating">
+                                ★ 4.7 <span>(56 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <div class="price">
+                                $15.63 <span>/person</span>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="container">
+            <div class="decorative-planes">
+                <img src="./img/bg-payment.svg.png" alt="">
+            </div>
+            
+            <div class="content-wrapper">
+                <div class="image-grid">
+                    <div class="image-container">
+                        <img src="./img/Container.png" alt="Mountain view">
+                        <div class="play-button"></div>
+                    </div>
+                    <div class="image-container">
+                        <img src="./img/payment2.png.png" alt="People sitting on rocks">
+                    </div>
+                    <div class="image-container">
+                        <img src="./img/payment3.png.png" alt="People jumping at beach">
+                    </div>
+                    <div class="image-container">
+                        <img src="./img/payment4.png.png" alt="People in convertible">
+                    </div>
+                </div>
+    
+                <div class="content">
+                    <h1>We offer tours in a range of locations</h1>
+                    <p>Choose one state or create a package, fit your passport's with adventures together.</p>
+                    
+                    <div class="features">
+                        <div class="feature">Security Assurance</div>
+                        <div class="feature">Customer Support</div>
+                        <div class="feature">Insurance Policy</div>
+                        <div class="feature">Flexible refunds</div>
+                    </div>
+    
+                    <div class="payment-methods">
+                        <p>Payment is secure and safe</p>
+                        <div class="payment-logos">
+                            <img src="./img/paypal.png.png" alt="PayPal" class="payment-logo">
+                            <img src="./img/stripe.png.png" alt="Stripe" class="payment-logo">
+                            <img src="./img/mastercard.png.png" alt="Mastercard" class="payment-logo">
+                            <img src="./img/skrill.png.png" alt="Skrill" class="payment-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offer-dicoration">
+            <img src="./img/binolar.png" alt="">
+        </div>
+    </section>
+
+    <section class="cotigories">
+        <div class="container">
+            <div class="cotigories-header">
+                <div class="title-section">
+                    <h1>Top Categories of Tours</h1>
+                    <p>Favorite destinations based on customer reviews</p>
+                </div>
+                <a href="#" class="view-more">View More</a>
+            </div>
+    
+            <div class="categories-grid">
+                <!-- Mountain -->
+                <div class="category-card">
+                    <img src="./img/top.png.png" alt="Mountain hiking tour" class="category-image">
+                    <div class="category-content">
+                        <div class="category-info">
+                            <h3>Mountain</h3>
+                            <div class="category-stats">356 Tours, 248 Activities</div>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+    
+                <!-- Safari -->
+                <div class="category-card">
+                    <img src="./img/top2.png.png" alt="Safari tour" class="category-image">
+                    <div class="category-content">
+                        <div class="category-info">
+                            <h3>Safari</h3>
+                            <div class="category-stats">356 Tours, 248 Activities</div>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+    
+                <!-- Desert -->
+                <div class="category-card">
+                    <img src="./img/top3.png.png" alt="Desert tour" class="category-image">
+                    <div class="category-content">
+                        <div class="category-info">
+                            <h3>Desert</h3>
+                            <div class="category-stats">356 Tours, 248 Activities</div>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+    
+                <!-- Flower -->
+                <div class="category-card">
+                    <img src="./img/top4.png.png" alt="Flower tour" class="category-image">
+                    <div class="category-content">
+                        <div class="category-info">
+                            <h3>Flower</h3>
+                            <div class="category-stats">356 Tours, 248 Activities</div>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+    
+                <!-- Beach -->
+                <div class="category-card">
+                    <img src="./img/top5.png.png" alt="Beach tour" class="category-image">
+                    <div class="category-content">
+                        <div class="category-info">
+                            <h3>Beach</h3>
+                            <div class="category-stats">356 Tours, 248 Activities</div>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+    
+                <!-- Temples -->
+                <div class="category-card">
+                    <img src="./img/top6.png.png" alt="Temple tour" class="category-image">
+                    <div class="category-content">
+                        <div class="category-info">
+                            <h3>Temples</h3>
+                            <div class="category-stats">356 Tours, 248 Activities</div>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+    
+                <!-- Yacht -->
+                <div class="category-card">
+                    <img src="./img/top7.png (1).png" alt="Yacht tour" class="category-image">
+                    <div class="category-content">
+                        <div class="category-info">
+                            <h3>Yacht</h3>
+                            <div class="category-stats">356 Tours, 248 Activities</div>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+    
+                <!-- Valley -->
+                <div class="category-card">
+                    <img src="./img/top7.png (1).png" alt="Valley tour" class="category-image">
+                    <div class="category-content">
+                        <div class="category-info">
+                            <h3>Valley</h3>
+                            <div class="category-stats">356 Tours, 248 Activities</div>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gifts">
+        <div class="container">
+            <div class="promo-banner">
+                <div class="promo-content">
+                    <button class="promo-btn">Install APP & Get discount code</button>
+                    <h1 class="promo-title">Up to 55% Discount and lots of special gifts</h1>
+                    <div class="store-buttons">
+                        <a href="#" class="store-button">
+                            <img src="./img/Link → googleplay.png.png" alt="Get it on Google Play">
+                        </a>
+                        <a href="#" class="store-button">
+                            <img src="./img/Link → appstore.png.png" alt="Download on the App Store">
+                        </a>
+                    </div>
+                </div>
+                <div class="promo-image-container">
+                    <img src="./img/img-download-app.png.png" alt="Happy travelers on an adventure" class="promo-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feas">
+        <div class="feat container">
+            <div class="feature2-titles">
+                <button class="tag">Why book at Travila ?</button>
+                <h1>Embracing Adventure Since 2003</h1>
+                <p>Choose one style or create a package, fill your passports with adventures together.</p>
+            </div>
+            <div class="features2">
+                <div class="feature2-card">
+                    <div class="feature2-icon"><img src="img/Background.png" alt=""></div>
+                    <h3 class="feature2-title">300,000+ Experiences</h3>
+                    <p class="feature2-description">Make memories around the world.</p>
+                </div>
+                <div class="feature2-card">
+                    <div class="feature2-icon"><img src="img/SVG (4).png" alt=""></div>
+                    <h3 class="feature2-title">Trusted Reviews</h3>
+                    <p class="feature2-description">4.8 stars from 160,000+ Trustpilot reviews.</p>
+                </div>
+                <div class="feature2-card">
+                    <div class="feature2-icon"><img src="img/SVG (5).png" alt=""></div>
+                    <h3 class="feature2-title">Reserve now, Pay later</h3>
+                    <p class="feature2-description">Book your spot first, pay later.</p>
+                </div>
+                <div class="feature2-card">
+                    <div class="feature2-icon"><img src="img/SVG (6).png" alt=""></div>
+                    <h3 class="feature2-title">Security Assurance</h3>
+                    <p class="feature2-description">Data security through encryption</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trending">
+        <div class="container">
+            <div class="trending-header">
+                <h1>Trending Destinations</h1>
+                <p>Most popular choices for travelers</p>
+            </div>
+    
+            <div class="destinations-grid">
+                <div class="traning-card large">
+                    <img src="./img/Link → trend.png.png" alt="Western Europe" class="card-image">
+                    <div class="promotion-badge">26 promotions</div>
+                    <div class="card-content">
+                        <h3 class="card-title">Western Europe</h3>
+                        <p class="card-info">166 Tours - Self Activities</p>
+                        <div class="timer">
+                            <div class="timer-block">22</div>
+                            <div class="timer-block">09</div>
+                            <div class="timer-block">45</div>
+                            <div class="timer-block">58</div>
+                        </div>
+                        <div class="arrow-icon">→</div>
+                    </div>
+                </div>
+    
+                <div class="traning-card">
+                    <img src="./img/Link → trend2.png.png" alt="New York" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">New York</h3>
+                        <p class="card-info">120 Tours - 245 Activities</p>
+                        <div class="arrow-icon">→</div>
+                    </div>
+                </div>
+    
+                <div class="traning-card">
+                    <img src="./img/Link → trend3.png.png" alt="Venice" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Venice</h3>
+                        <p class="card-info">85 Tours - 168 Activities</p>
+                        <div class="arrow-icon">→</div>
+                    </div>
+                </div>
+    
+                <div class="traning-card">
+                    <img src="./img/Link → trend5.png.png" alt="Amsterdam" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Amsterdam</h3>
+                        <p class="card-info">95 Tours - 204 Activities</p>
+                        <div class="arrow-icon">→</div>
+                    </div>
+                </div>
+    
+                <div class="traning-card">
+                    <img src="./img/Link (2).png" alt="London" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">London</h3>
+                        <p class="card-info">110 Tours - 248 Activities</p>
+                        <div class="arrow-icon">→</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lives">
+        <div class="container">
+            <div class="features-container">
+                <div class="live feature-top-left">
+                    <div class="feature-icon"><img src="img/security.svg fill.png" alt=""></div>
+                    <h3>Security Assurance</h3>
+                    <p>Demonstrates commitment to user data security through encryption and secure payment practices</p>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+        
+                <div class="live feature-top-right">
+                    <div class="feature-icon"><img src="./img/repu.svg.png" alt=""></div>
+                    <h3>Transparent Policies</h3>
+                    <p>Demonstrates commitment to user data security through encryption and secure payment practices</p>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+        
+                <div class="live feature-bottom-left">
+                    <div class="feature-icon"><img src="img/support.svg fill.png" alt=""></div>
+                    <h3>Customer Support</h3>
+                    <p>Demonstrates commitment to user data security through encryption and secure payment practices</p>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+        
+                <div class="live feature-bottom-right">
+                    <div class="feature-icon"><img src="img/policy.svg fill.png" alt=""></div>
+                    <h3>Reputable Affiliations</h3>
+                    <p>Demonstrates commitment to user data security through encryption and secure payment practices</p>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+        
+                <img src="./img/man.png.png" alt="Happy traveler with backpack" class="central-image">
+                <div class="phone-number">+01 235 568</div>
+            </div>
+        
+            <div class="banner">
+                <img src="./img/banner-ads.png.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="inspirations">
+        <div class="container">
+            <div class="inspiration-header">
+                <h1>Get inspiration for your next trip</h1>
+                <p>Favorite destinations based on customer reviews</p>
+            </div>
+    
+            <div class="carousel-container">
+                <div class="navigation">
+                    <button class="nav-button prev" onclick="scroll(-1)">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M15 18l-6-6 6-6"></path>
+                        </svg>
+                    </button>
+                    <button class="nav-button next" onclick="scroll(1)">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M9 18l6-6-6-6"></path>
+                        </svg>
+                    </button>
+                </div>
+    
+                <div class="carousel">
+                    <!-- Card 1 -->
+                    <article class="card">
+                        <div class="inspiration-img">
+                            <span class="category">Cultural</span>
+                            <button class="bookmark">
+                                <svg width="16" height="16" viewBox="0 0 24 24">
+                                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                            </button>
+                            <img src="./img/news.png.png" alt="Travel scene with boat">
+                        </div>
+                        <div class="inspiration-content">
+                            <div class="metadata">
+                                <span>15 Sep 2024</span>
+                                <span>5 mins</span>
+                                <span>38 comments</span>
+                            </div>
+                            <h2 class="title">Ultimate Travel Planning Guide: 10 Tips for a Seamless Journey</h2>
+                            <div class="author">
+                                <div class="author-info">
+                                    <div class="author-avatar">
+                                        <img src="./img/avatar.png.png" alt="Jenny Dave">
+                                    </div>
+                                    <span class="author-name">Jenny Dave</span>
+                                </div>
+                                <a href="#" class="read-more">Keep Reading</a>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <!-- Card 2 -->
+                    <article class="card">
+                        <div class="inspiration-img">
+                            <span class="category">Travel</span>
+                            <button class="bookmark">
+                                <svg width="16" height="16" viewBox="0 0 24 24">
+                                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                            </button>
+                            <img src="./img/news2.png.png" alt="Friends traveling">
+                        </div>
+                        <div class="inspiration-content">
+                            <div class="metadata">
+                                <span>18 Sep 2024</span>
+                                <span>6 mins</span>
+                                <span>42 comments</span>
+                            </div>
+                            <h2 class="title">Top 10 Travel Hacks for Budget-Conscious Adventurers</h2>
+                            <div class="author">
+                                <div class="author-info">
+                                    <div class="author-avatar">
+                                        <img src="./img/avatar.png.png" alt="Jenny Dave">
+                                    </div>
+                                    <span class="author-name">Jenny Dave</span>
+                                </div>
+                                <a href="#" class="read-more">Keep Reading</a>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <!-- Card 3 -->
+                    <article class="card">
+                        <div class="inspiration-img">
+                            <span class="category">Discovery</span>
+                            <button class="bookmark">
+                                <svg width="16" height="16" viewBox="0 0 24 24">
+                                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                            </button>
+                            <img src="./img/news3.png.png" alt="Hidden beach">
+                        </div>
+                        <div class="inspiration-content">
+                            <div class="metadata">
+                                <span>20 Sep 2024</span>
+                                <span>4 mins</span>
+                                <span>28 comments</span>
+                            </div>
+                            <h2 class="title">Discovering Hidden Gems: 15 Off-the-Beaten-Path Travel Tips</h2>
+                            <div class="author">
+                                <div class="author-info">
+                                    <div class="author-avatar">
+                                        <img src="./img/avatar.png.png" alt="Jenny Dave">
+                                    </div>
+                                    <span class="author-name">Jenny Dave</span>
+                                </div>
+                                <a href="#" class="read-more">Keep Reading</a>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <!-- Card 4 -->
+                    <article class="card">
+                        <div class="inspiration-img">
+                            <span class="category">Cultural</span>
+                            <button class="bookmark">
+                                <svg width="16" height="16" viewBox="0 0 24 24">
+                                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                            </button>
+                            <img src="./img/news.png.png" alt="Travel scene">
+                        </div>
+                        <div class="inspiration-content">
+                            <div class="metadata">
+                                <span>22 Sep 2024</span>
+                                <span>7 mins</span>
+                                <span>45 comments</span>
+                            </div>
+                            <h2 class="title">Ultimate Travel Planning Guide: Tips for a Seamless Journey</h2>
+                            <div class="author">
+                                <div class="author-info">
+                                    <div class="author-avatar">
+                                        <img src="./img/avatar.png.png" alt="Jenny Dave">
+                                    </div>
+                                    <span class="author-name">Jenny Dave</span>
+                                </div>
+                                <a href="#" class="read-more">Keep Reading</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+    
+            <a href="#" class="view-more">
+                View More >
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="company-info">
+                <img src="./img/Link (3).png" alt="Travila">
+                <p>One trip local recommendations for a truly authentic experience</p>
+                <p>6517 Rosemary Lane, Manchester, Kentucky 24356</p>
+                <p>Hours: 8:00 - 17:00 Mon - Sat</p>
+                <p>support@travila.com</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Community Blog</a></li>
+                    <li><a href="#">Jobs & Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Our Agents</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Tour Guide</a></li>
+                    <li><a href="#">Tour Booking</a></li>
+                    <li><a href="#">Hotel Booking</a></li>
+                    <li><a href="#">Ticket Booking</a></li>
+                    <li><a href="#">Rental Services</a></li>
+                </ul>
+            </div>
+
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="cta-boxes">
+            <div class="cta-box">
+                <div class="icon"><img src="./img/help.svg.png" alt=""></div>
+                <div class="content">
+                    <h4>Need help? Call us</h4>
+                    <p>1-800-222-8888</p>
+                </div>
+            </div>
+            <div class="cta-box">
+                <div class="icon"><img src="./img/join.svg fill.png" alt=""></div>
+                <div class="content">
+                    <h4>Join Travila Affiliate</h4>
+                    <p>Program Today!</p>
+                </div>
+            </div>
+            <div class="cta-box">
+                <div class="icon"><img src="./img/msg.svg.png" alt=""></div>
+                <div class="content">
+                    <h4>Send us a message</h4>
+                    <p>We reply within 24 hours</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">
+                © 2024 Travila Inc. All rights reserved
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><img src="img/SVG.png" alt=""></a>
+                <a href="#" aria-label="Instagram"><img src="img/SVG (1).png" alt=""></a>
+                <a href="#" aria-label="Twitter"><img src="img/SVG (2).png" alt=""></a>
+                <a href="#" aria-label="YouTube"><img src="img/SVG (3).png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

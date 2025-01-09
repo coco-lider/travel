@@ -1,0 +1,157 @@
+.offer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 80px 0;
+}
+
+.offer .container {
+    position: relative;
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.image-container {
+    position: relative;
+    padding-top: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.play-button::after {
+    content: "▶";
+    color: #333;
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.content p {
+    color: #666;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #333;
+}
+
+.feature::before {
+    content: "✓";
+    color: #0066ff;
+}
+
+.payment-methods {
+    margin-top: 32px;
+}
+
+.payment-methods p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.payment-logos {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.payment-logo {
+    height: 24px;
+    object-fit: contain;
+}
+
+.decorative-planes {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0.2;
+}
+
+.offer-dicoration{
+    width: 100%;
+    height: 100%;
+}
+
+.offer-dicoration img{
+    max-width: 1400px;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .image-grid {
+        order: 2;
+    }
+
+    .content {
+        order: 1;
+        padding: 0;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+}
